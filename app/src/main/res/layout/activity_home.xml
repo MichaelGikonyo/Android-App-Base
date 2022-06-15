@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/white"
+    android:id="@+id/dlHome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tbHeaderHome"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="-5dp"
+            android:background="@drawable/hometopbar" />
+
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="202dp"
+            android:layout_height="33dp"
+            android:id="@+id/appName"
+            android:src="@drawable/logo"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="-120dp"
+            android:layout_marginBottom="-450dp"
+            android:src="@drawable/homefooter" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/frameLayout" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnMenuDL"
+                    android:layout_width="35dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/menuicon" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:id="@+id/nav_view"
+        app:menu="@menu/nav_menu"
+        android:elevation="25dp"
+        app:elevation="25dp"
+        android:background="@color/white"
+        app:itemTextColor="@color/homeColor"
+        android:alpha="0.95"
+        app:itemIconTint="@color/homeColor"
+        app:drawerLayoutCornerSize="20dp">
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

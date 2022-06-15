@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bcgwelcom">#7D1500</color>
+    <color name="loginActTxtColor">#8A3504</color>
+    <color name="txtColor1">#A40D49</color>
+    <color name="signUpBg">#CFFFFFFF</color>
+    <color name="signUpBg2">#CBCB0F</color>
+    <color name="verifyBg">#E6EE9C</color>
+    <color name="homeColor">#7B0383</color>
+    <color name="transWhite">#DAF4F3F3</color>
+    <color name="tabBack">#D1E6A8AE</color>
+</resources>

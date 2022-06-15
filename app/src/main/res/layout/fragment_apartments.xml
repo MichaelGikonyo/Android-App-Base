@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ApartmentsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="50dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                app:cardCornerRadius="15dp"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp"
+                android:id="@+id/cvApartmentList">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/fragback"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Apartment 1"
+                        android:textAllCaps="false"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:background="@drawable/fragment_bg"/>
+                    <Button
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Apartment 2"
+                        android:textAllCaps="false"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:background="@drawable/fragment_bg"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/cvApartmentList"
+                android:layout_marginTop="25dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="410dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_margin="10dp"
+                    app:cardElevation="5dp"
+                    android:id="@+id/cvApartmentTab">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/tabBack"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

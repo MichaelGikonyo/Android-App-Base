@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navHome"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/navMyApartments"
+            android:title="My Apartments"
+            android:icon="@drawable/appartments"/>
+        <item
+            android:id="@+id/navTenants"
+            android:title="Tenants / Agents"
+            android:icon="@drawable/tenants"/>
+        <item
+            android:id="@+id/navMyIncome"
+            android:title="My Income"
+            android:icon="@drawable/income" />
+
+        <item
+            android:id="@+id/navSubscription"
+            android:title="Subscription"
+            android:icon="@drawable/subscription"/>
+        <item
+            android:id="@+id/navManage"
+            android:title="Manage"
+            android:icon="@drawable/manage" />
+
+        <item
+            android:id="@+id/navAbout"
+            android:title="About"
+            android:icon="@drawable/about"/>
+        <item
+            android:id="@+id/navContactUs"
+            android:title="Contact Us"
+            android:icon="@drawable/phone"/>
+        <item
+            android:id="@+id/navReport"
+            android:title="Report / Inquire"
+            android:icon="@drawable/inquire"/>
+    </group>
+
+</menu>
